@@ -1,8 +1,13 @@
+import Section1 from "@/components/S1/Section1";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { FC } from "react";
 
 const Home: FC = () => {
-  return <>my home</>;
+  return (
+    <>
+      <Section1 />
+    </>
+  );
 };
 interface Props {
   locale: string;

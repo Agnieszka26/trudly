@@ -1,0 +1,5 @@
+@import "../../assets/styles/mixins/index.scss";
+.list {
+    list-style: none;
+    @include center;
+}

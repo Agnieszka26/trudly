@@ -3,24 +3,11 @@ import { FC } from "react";
 import ListElement from "../ListElement/ListElement";
 import styles from "./List.module.scss";
 
-interface ListProps {}
+interface ListProps {
+  listElementData: { link: RoutesPath; text: string }[];
+}
 
-const listElementData = [
-  {
-    link: RoutesPath.HOW_DOES_IT_WORK,
-    text: "jak to dziala",
-  },
-  {
-    link: RoutesPath.NECESSITOUS,
-    text: "potrzebujący",
-  },
-  {
-    link: RoutesPath.COUPONS,
-    text: "kupony",
-  },
-];
-
-const List: FC<ListProps> = () => {
+const List: FC<ListProps> = ({ listElementData }) => {
   return (
     <ul className={styles.list}>
       {listElementData.map(({ link, text }, index) => (
@@ -29,8 +16,5 @@ const List: FC<ListProps> = () => {
     </ul>
   );
 };
-interface Props {
-  locale: string;
-}
 
 export default List;
