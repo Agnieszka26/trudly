@@ -1,0 +1,9 @@
+@import "../../assets/styles/colors";
+@import "../../assets//styles/fontSizes";
+.base {
+    &.hasColor {
+        &-blue {
+            color: $blueText;
+        }
+    }
+}

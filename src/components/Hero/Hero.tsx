@@ -1,11 +1,11 @@
 import Headline from "@/typography/Headline/Headline";
 import { FC } from "react";
-import styles from "./Section1.module.scss";
-interface Section1Props {}
+import styles from "./Hero.module.scss";
+interface HeroProps {}
 
-const Section1: FC<Section1Props> = () => {
+const Hero: FC<HeroProps> = () => {
   return (
-    <section className={styles.Section1}>
+    <section className={styles.hero}>
       <Headline
         color="blue"
         text={"Pomagaj"}
@@ -15,4 +15,4 @@ const Section1: FC<Section1Props> = () => {
   );
 };
 
-export default Section1;
+export default Hero;

@@ -1,0 +1,8 @@
+@import "../../assets/styles/mixins/index.scss";
+@import "../../assets/styles/colors";
+.fastLinkCard {
+    @include spaceBetween;
+    border: 1px solid $customDarkGrey;
+    border-radius: 8px;
+    padding: 1rem;
+}

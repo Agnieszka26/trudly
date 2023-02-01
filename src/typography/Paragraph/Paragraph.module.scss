@@ -1,0 +1,16 @@
+@import "../../assets/styles/colors";
+@import "../../assets//styles/fontSizes";
+@font-face {
+    font-family: "oxygenRegular";
+    src: url("../../assets/fonts/Oxygen-Regular.ttf") format("truetype");
+}
+.p {
+    font-family: "oxygenRegular";
+    font-weight: 400;
+    font-size: $xs;
+    &.hasColor {
+        &-blue {
+            color: $blueText;
+        }
+    }
+}

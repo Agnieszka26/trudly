@@ -1,3 +1,4 @@
+import FastLinks from "@/components/FastLinks/FastLinks";
 import Section1 from "@/components/S1/Section1";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { FC } from "react";
@@ -5,6 +6,7 @@ import { FC } from "react";
 const Home: FC = () => {
   return (
     <>
+      <FastLinks />
       <Section1 />
     </>
   );

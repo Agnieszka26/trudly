@@ -1,10 +1,8 @@
 @import "../../assets/styles/mixins/index.scss";
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include spaceBetween;
     padding: 0px 7%;
-    gap: 10px;
+
     .containerLeft {
         @include center;
     }

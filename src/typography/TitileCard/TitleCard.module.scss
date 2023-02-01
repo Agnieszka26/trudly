@@ -1,0 +1,11 @@
+@import "../../assets/styles/colors";
+@import "../../assets//styles/fontSizes";
+.p {
+    font-weight: 700;
+    font-size: $xs;
+    &.hasColor {
+        &-blue {
+            color: $blueText;
+        }
+    }
+}
