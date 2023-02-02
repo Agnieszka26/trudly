@@ -8,16 +8,36 @@
     font-family: "oxygenRegular";
     font-weight: 400;
     font-size: $xs;
+    white-space: pre-wrap;
+    padding: 1rem 0;
 
-    &.hasColor {
+    &.color {
         &-blue {
             color: $blueText;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 1rem 0rem;
         }
     }
     &.onHero {
         &-onHero {
             font-size: $s;
             padding-bottom: 3rem;
+        }
+    }
+    &.card {
+        &-trustCard {
+            padding-top: 1rem;
+            line-height: 30px;
+        }
+        &-historyCard {
+            padding-top: 1rem;
+            line-height: 30px;
+        }
+    }
+    &.align {
+        &-center {
+            text-align: center;
         }
     }
 }

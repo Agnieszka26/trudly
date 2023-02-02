@@ -1,0 +1,7 @@
+@import "../../assets/styles/mixins/index.scss";
+@import "../../assets/styles/colors";
+.columnContainer {
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+}

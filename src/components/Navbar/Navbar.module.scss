@@ -1,6 +1,7 @@
 @import "../../assets/styles/mixins/index.scss";
 .navbar {
     @include spaceBetween;
+    padding: 2rem 7%;
 
     .containerLeft {
         @include center;

@@ -1,0 +1,23 @@
+@import "../../assets/styles/mixins/index.scss";
+@import "../../assets/styles/colors";
+.mediaCard {
+    position: relative;
+    border: 1px solid $customDarkGrey;
+    background-color: $customWhite;
+    border-radius: 8px;
+    padding: 1rem;
+    overflow: hidden;
+    text-align: left;
+    .box {
+        @include spaceBetween;
+    }
+    .link {
+        @include center;
+        color: $blueText;
+    }
+    .text {
+    }
+
+    .imageContainer {
+    }
+}

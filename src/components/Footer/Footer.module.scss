@@ -1,3 +1,16 @@
+@import "../../assets/styles/colors";
+@import "../../assets/styles/mixins/index.scss";
+
 .footer {
-    background-color: bisque;
+    background-color: $backgroundBlue;
+    padding: 2rem 0;
+
+    .footerBox {
+        @include spaceBetween;
+        padding: 2rem 7%;
+    }
+    .finansowanieBox {
+        @include center;
+        padding: 2rem 0;
+    }
 }

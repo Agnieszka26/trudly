@@ -1,0 +1,6 @@
+@import "../../assets/styles/mixins/index.scss";
+.mediaContainer {
+    @include center;
+    gap: 8px;
+    padding: 2rem 7%;
+}

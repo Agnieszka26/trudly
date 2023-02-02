@@ -1,0 +1,24 @@
+@import "../../assets/styles/colors";
+@import "../../assets//styles/fontSizes";
+@font-face {
+    font-family: "oxygenRegular";
+    src: url("../../assets/fonts/Oxygen-Regular.ttf") format("truetype");
+}
+.footerLink {
+    .p {
+        font-family: "oxygenRegular";
+        font-weight: 400;
+        font-size: $xs;
+        white-space: pre-wrap;
+        line-height: 30px;
+        &.color {
+            &-blue {
+                color: $blueText;
+                font-size: $s;
+                font-weight: 700;
+                padding: 1rem 7%;
+                text-align: end;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@import "../../assets/styles/colors";
+@import "../../assets//styles/fontSizes";
+@font-face {
+    font-family: "oxygenRegular";
+    src: url("../../assets/fonts/Oxygen-Regular.ttf") format("truetype");
+}
+.column {
+    padding: 1rem;
+}

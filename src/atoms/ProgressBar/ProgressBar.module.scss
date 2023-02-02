@@ -1,0 +1,23 @@
+@import "../../assets/styles/mixins/index.scss";
+@import "../../assets/styles/colors";
+.progressBar {
+    height: 10px;
+    width: 100%;
+    background-color: "#e0e0de";
+    border-radius: 10px;
+    margin: 5px;
+    background-color: $customLightGrey;
+    border: 1px solid $customDarkGrey;
+}
+
+.filler {
+    height: 100%;
+    width: 50%;
+    background-color: $blueText;
+    border-radius: inherit;
+    text-align: right;
+}
+
+.label {
+    padding: 5px;
+}

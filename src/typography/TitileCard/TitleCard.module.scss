@@ -8,4 +8,14 @@
             color: $blueText;
         }
     }
+    &.footer {
+        &-footer {
+            line-height: 50px;
+        }
+    }
+    &.bigger {
+        &-true {
+            font-size: $s;
+        }
+    }
 }

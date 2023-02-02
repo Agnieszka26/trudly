@@ -1,0 +1,11 @@
+@import "../../assets/styles/colors";
+.section {
+    padding: 5rem 0;
+    margin: auto;
+    text-align: center;
+    &.backgroundColor {
+        &-white {
+            background-color: $customWhite;
+        }
+    }
+}

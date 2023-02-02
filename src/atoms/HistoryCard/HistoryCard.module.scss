@@ -1,0 +1,22 @@
+@import "../../assets/styles/mixins/index.scss";
+@import "../../assets/styles/colors";
+.historyCard {
+    border: 1px solid $customDarkGrey;
+    border-radius: 8px;
+    background-color: $customWhite;
+    overflow: hidden;
+    text-align: left;
+    flex: 0 0 28%;
+    max-height: 600px;
+    .hashtagsContainer {
+        display: flex;
+    }
+    .imageContainer {
+    }
+    .textContainer {
+        padding: 1rem;
+        .numberContainer {
+            @include spaceBetween;
+        }
+    }
+}

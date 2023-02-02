@@ -1,0 +1,13 @@
+@import "../../assets/styles/colors";
+.line {
+    height: 1px;
+    width: 85%;
+    background-color: $customDarkGrey;
+    margin: auto;
+    &.long {
+        &-long {
+            width: 100%;
+            margin: 1rem 0;
+        }
+    }
+}

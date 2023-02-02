@@ -5,16 +5,20 @@ import styles from "./Paragraph.module.scss";
 interface IParagraph {
   color?: "blue";
   onHero?: "onHero";
+  card?: "trustCard" | "historyCard";
   text: string;
+  align?: "center";
 }
 
-const Paragraph: FC<IParagraph> = ({ color, text, onHero }) => {
+const Paragraph: FC<IParagraph> = ({ color, text, onHero, card, align }) => {
   return (
     <p
       className={cn(
         styles.p,
         styles[`onHero-${onHero}`],
-        styles[`color-${color}`]
+        styles[`card-${card}`],
+        styles[`color-${color}`],
+        styles[`align-${align}`]
       )}
     >
       {text}
