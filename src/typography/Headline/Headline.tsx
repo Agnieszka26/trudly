@@ -10,7 +10,7 @@ interface IHeadline {
 
 const Headline: FC<IHeadline> = ({ color, text, secondPartText }) => {
   return (
-    <h1>
+    <h1 className={styles.h1}>
       <span className={cn(styles.base, styles[`hasColor-${color}`])}>
         {text}
       </span>

@@ -1,9 +1,14 @@
 @import "../../assets/styles/colors";
 @import "../../assets//styles/fontSizes";
-.base {
-    &.hasColor {
-        &-blue {
-            color: $blueText;
+.h1 {
+    font-size: $xxl;
+    line-height: 61px;
+    padding: 6rem 0rem 3rem;
+    .base {
+        &.hasColor {
+            &-blue {
+                color: $blueText;
+            }
         }
     }
 }

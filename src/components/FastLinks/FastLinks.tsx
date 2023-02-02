@@ -7,7 +7,7 @@ interface IFastLinks {}
 
 const FastLinks: FC<IFastLinks> = () => {
   return (
-    <div className={styles.fastLinks}>
+    <section className={styles.fastLinks}>
       {fastLinks.map(({ icon, text, title, href }) => (
         <FastLinkCard
           title={title}
@@ -17,7 +17,7 @@ const FastLinks: FC<IFastLinks> = () => {
           key={title}
         />
       ))}
-    </div>
+    </section>
   );
 };
 export default FastLinks;

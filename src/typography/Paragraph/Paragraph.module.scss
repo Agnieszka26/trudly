@@ -8,9 +8,16 @@
     font-family: "oxygenRegular";
     font-weight: 400;
     font-size: $xs;
+
     &.hasColor {
         &-blue {
             color: $blueText;
+        }
+    }
+    &.onHero {
+        &-onHero {
+            font-size: $s;
+            padding-bottom: 3rem;
         }
     }
 }

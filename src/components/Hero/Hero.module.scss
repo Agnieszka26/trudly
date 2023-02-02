@@ -1,2 +1,6 @@
+@import "../../assets/styles/mixins/index.scss";
+@import "../../assets/styles/colors";
 .hero {
+    @include center;
+    padding-bottom: 4rem;
 }

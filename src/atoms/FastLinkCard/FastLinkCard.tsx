@@ -1,5 +1,5 @@
 import Paragraph from "@/typography/Paragraph/Paragraph";
-import TitleCard from "@/typography/TitileCard/TitleCard";
+import TitleCard from "@/typography/Titile/Title";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { FC } from "react";
