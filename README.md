@@ -18,7 +18,7 @@ To clone and run this application, you'll need Git and Node.js installed on your
 
 ```
 # Clone this repository
-$ git clone https://github.com/Agnieszka26/trudly
+$ git clone https://github.com/Agnieszka26/trudly.git
 
 # Go into the repository
 $ cd trudly
