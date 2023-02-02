@@ -14,7 +14,7 @@ Project is created with:
 * typescript: 4.9.5
 	
 ## Setup
-To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
+To clone and run this application, you'll need Git and Node.js installed on your computer. From your command line:
 
 ```
 # Clone this repository
